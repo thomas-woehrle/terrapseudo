@@ -13,9 +13,8 @@ def process_image(path_to_image):
     # then downsample
     image = cv2.resize(image, (320, 224), interpolation=cv2.INTER_AREA)
 
-    print(type(image))
-    print(image.shape)
-    data = image / 255
+    data = np.divide(image, 255)
+
     # ImageNet normalization
     data[:, :, 0] = (data[:, :, 0]-0.485)/0.229
     data[:, :, 1] = (data[:, :, 1]-0.456)/0.224
