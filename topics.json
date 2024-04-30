@@ -1,0 +1,10 @@
+[
+  "/terrasentia/zed2/zed_node/left/image_rect_color/compressed",
+  "/terrasentia/zed2/zed_node/right/image_rect_color/compressed",
+  "/terrasentia/zed2/zed_node/imu/data",
+  "/terrasentia/ekf",
+  "/terrasentia/full_gps",
+  "/terrasentia/imu",
+  "/terrasentia/motors",
+  "/terrasentia/motion_command"
+]
